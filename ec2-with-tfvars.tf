@@ -83,6 +83,6 @@ resource "aws_instance" "ec2_instance" {
 }
 
 # Output variable: Public IP address
-output "public_ip" {
-  value = "${aws_instance.ec2_instance.public_ip}"
+output "public_ips" {
+  value = aws_instance.ec2_instance[*].public_ip
 }
