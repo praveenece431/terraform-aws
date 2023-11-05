@@ -27,7 +27,7 @@ To use the AWS CLI or AWS SDKs to interact with Amazon Web Services, you need to
 
 ## AWS Credentials Profile File
 
-You can store your AWS credentials in a profile file on your local system. The location of the file depends on your operating system:
+## You can store your AWS credentials in a profile file on your local system. The location of the file depends on your operating system:
 
 - On Linux, macOS, or Unix, the file is located at `~/.aws/credentials`.
 - On Windows, it can be found at `C:\Users\USERNAME\.aws\credentials`.
@@ -40,7 +40,7 @@ To configure the profile file:
    nano ~/.aws/credentials  # On Linux or macOS
    notepad C:\Users\USERNAME\.aws\credentials  # On Windows
 
-Add the following lines to the file, replacing <your_access_key_id> and <your_secret_access_key> with your own AWS credentials:
+## Add the following lines to the file, replacing <your_access_key_id> and <your_secret_access_key> with your own AWS credentials:
 
 [default]
 aws_access_key_id = <your_access_key_id>
