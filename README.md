@@ -14,3 +14,10 @@ Make sure you have the following prerequisites installed:
   aws version
   aws configure
 
+## Terraform commands
+```bash
+terraform init
+terraform validate
+terraform plan -var-file=ec2.tfvars
+terraform apply -var-file=ec2.tfvars
+
